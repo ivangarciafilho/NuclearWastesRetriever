@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3249581794157582845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3249581794157582838}
+  - component: {fileID: 3249581794157582833}
+  - component: {fileID: 3249581794157582835}
+  - component: {fileID: 3249581794157582832}
+  m_Layer: 2
+  m_Name: Sea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3249581794157582838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3249581794157582845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 900, y: 0.111, z: 900}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3249581794157582833
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3249581794157582845}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &3249581794157582835
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3249581794157582845}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 55eaa8663beb5454ab5c92fbb60fb49d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &3249581794157582832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3249581794157582845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8bd5fe673aecd047a2b7970cee585be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itsInstanceID: 0
+  itsGameobject: {fileID: 0}
+  itsGameobjectID: 0
+  itsTransform: {fileID: 0}
+  itsChildCount: 0
+  itsTransformID: 0
+  itsPosition: {x: 0, y: 0, z: 0}
+  its2DPosition: {x: 0, y: 0}
+  itsLocalPosition: {x: 0, y: 0, z: 0}
+  its2DLocalPosition: {x: 0, y: 0}
+  itsRotation: {x: 0, y: 0, z: 0, w: 0}
+  itsYaw: {x: 0, y: 0, z: 0, w: 0}
+  itsPitch: {x: 0, y: 0, z: 0, w: 0}
+  itsRoll: {x: 0, y: 0, z: 0, w: 0}
+  itsLocalRotation: {x: 0, y: 0, z: 0, w: 0}
+  itsLocalYaw: {x: 0, y: 0, z: 0, w: 0}
+  itsLocalPitch: {x: 0, y: 0, z: 0, w: 0}
+  itsLocalRoll: {x: 0, y: 0, z: 0, w: 0}
+  itsEulerRotation: {x: 0, y: 0, z: 0}
+  itsYawEulerRotation: {x: 0, y: 0, z: 0}
+  itsPitchEulerRotation: {x: 0, y: 0, z: 0}
+  itsRollEulerRotation: {x: 0, y: 0, z: 0}
+  itsEulerLocalRotation: {x: 0, y: 0, z: 0}
+  itsYawEulerLocalRotation: {x: 0, y: 0, z: 0}
+  itsPitchEulerLocalRotation: {x: 0, y: 0, z: 0}
+  itsRollEulerLocalRotation: {x: 0, y: 0, z: 0}
+  itsForward: {x: 0, y: 0, z: 0}
+  itsRight: {x: 0, y: 0, z: 0}
+  itsUp: {x: 0, y: 0, z: 0}
+  hasRigidbody: 0
+  itsRigidbody: {fileID: 0}
+  itsRigidbodyID: 0
+  itsCenterOfMass: {x: 0, y: 0, z: 0}
+  itsVelocity: {x: 0, y: 0, z: 0}
+  itsAngularVelocity: {x: 0, y: 0, z: 0}
+  hasColliders: 0
+  itsColliders: []
+  itsCollidersIDs: 
+  amountOfColliders: 0
+  hasTriggers: 0
+  itsTriggers: []
+  itsTriggersIDs: 
+  amountOfTriggers: 0
+  hasAnimator: 0
+  itsAnimator: {fileID: 0}
+  itsAnimatorID: 0
+  hasNavmeshAgent: 0
+  itsNavmeshAgent: {fileID: 0}
+  itsNavMeshAgentID: 0
+  surfaceMoonlight: {fileID: 0}
+  underwaterMoonlight: {fileID: 0}

@@ -1,0 +1,61 @@
+# =============== #
+# Unity generated #
+# =============== #
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ee]xported[Oo]bj/
+/[Bb]uild*/
+/[Ll]og*/
+/[Uu]nityPackageManager/
+/[Ss]creenshots/
+/[Rr]ecordings/
+/Assets/AssetStoreTools*
+sysinfo.txt
+*.apk
+*.unitypackage
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+.vs/
+*.userprefs
+/*.csproj
+/*#.csproj
+/*.pidb
+*.pidb.meta
+/*.suo
+/*.sln
+/*.user
+/*.unityproj
+/*.booproj
+.consulo/
+/*.tmp
+/*.svd
+*.pdb
+
+*#.dll
+*.bat
+*.zip
+LD42/LD42.sln
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+[Tt]humbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
